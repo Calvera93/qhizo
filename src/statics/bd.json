@@ -1,0 +1,39 @@
+{
+    "usuarios":{
+       "userid1":{
+           "nombre":"Fabian",
+           "email":"fabian@ejemplo.com",
+           "online":false
+       },"userid2":{
+        "nombre":"Fabian",
+        "email":"fabian@ejemplo.com",
+        "online":false
+    }
+},
+    "chats":{
+        "userid1":{
+            "userid2":{
+                "mensajeid1":{
+                    "from":"yo",
+                    "mensaje":"hola como estas?"
+                },
+                "mensajeid2":{
+                    "from":"otro",
+                    "mensaje":"hola como estas?"
+                }
+            }
+        },      "userid2":{
+            "userid2":{
+                "mensajeid1":{
+                    "from":"otro",
+                    "mensaje":"hola como estas?"
+                },
+                "mensajeid2":{
+                    "from":"yo",
+                    "mensaje":"hola como estas?"
+                }
+            }
+        }
+    }
+    
+}
